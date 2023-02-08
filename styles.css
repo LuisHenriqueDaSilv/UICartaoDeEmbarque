@@ -1,0 +1,210 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Rubik', sans-serif;
+
+    letter-spacing: -0.02em;
+
+    font-size: 1.6rem;
+
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #8257E5 0%, #271A45 100%);
+
+    display: grid;
+    place-content: center;
+
+    text-align: center;
+}
+
+
+#app {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+#footer {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+#card {
+    width: 32.7rem;
+}
+
+.info-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+}
+
+.info {
+    text-align: left;
+}
+
+.info p {
+    color: rgba(0, 0, 0, 0.64);
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+.info input {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: rgba(0, 0, 0, 0.88);
+}
+
+
+#state {
+    margin-top: 2.4rem;
+
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.64);
+}
+
+#airport {
+    font-size: 4rem;
+    line-height: 4.7rem;
+    color: rgba(0, 0, 0, 0.88);
+}
+
+#fly-hour {
+    font-size: 16px;
+    line-height: 1.9rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+}
+
+.right-info * {
+    text-align: right;
+}
+
+#user-infos {
+    padding: 3.2rem 2.4rem;
+    margin: -3px 0;
+    position: relative;
+    border: 2px dashed rgba(0, 0, 0, 0.32);
+
+    border-left: none;
+    border-right: none;
+
+    border-radius: 0;
+
+    background: #fff;
+    background: linear-gradient(135deg, transparent 1rem, #fff 0) top left,
+        linear-gradient(225deg, transparent 1rem, #fff 0) top right,
+        linear-gradient(315deg, transparent 1rem, #fff 0) bottom right,
+        linear-gradient(45deg, transparent 1rem, #fff 0) bottom left;
+    background-size: 60% 50%;
+    background-repeat: no-repeat;
+
+    background-image: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 14px, #fff 15px),
+        radial-gradient(circle at 100% 0, rgba(0, 0, 0, 0) 14px, #fff 15px),
+        radial-gradient(circle at 100% 100%, rgba(0, 0, 0, 0) 14px, #fff 15px),
+        radial-gradient(circle at 0 100%, rgba(0, 0, 0, 0) 14px, #fff 15px);
+}
+
+section {
+    padding: 3.2rem 2.4rem;
+    background-color: #ffffff;
+    border-radius: 2.4rem 2.4rem 0 0;
+
+    background: #fff;
+    background:
+        linear-gradient(315deg, transparent 10px, #fff 0) bottom right,
+        linear-gradient(45deg, transparent 10px, #fff 0) bottom left;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+
+    background-image:
+        radial-gradient(circle at 100% 100%, rgba(0, 0, 0, 0) 14px, #fff 15px),
+        radial-gradient(circle at 0 100%, rgba(0, 0, 0, 0) 14px, #fff 15px);
+}
+
+#about-boarding {
+    border-radius: 0 0 2.4rem 2.4rem;
+    background: #fff;
+    background: linear-gradient(135deg, transparent 10px, #fff 0) top left,
+        linear-gradient(225deg, transparent 10px, #fff 0) top right;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+
+    background-image: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 14px, #fff 15px),
+        radial-gradient(circle at 100% 0, rgba(0, 0, 0, 0) 14px, #fff 15px);
+
+
+}
+
+#boarding-infos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#boarding-infos > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem
+}
+
+
+#qrcode {
+    height: 16rem;
+}
+
+#board-time {
+    background-color: #633BBC;
+    padding: 0.8rem;
+    width: 6rem;
+    text-align: center;
+    border-radius: 0.8rem;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 0.2rem;
+}
+
+
+input {
+    border: none;
+    background: none;
+    width: 100%;
+    outline: none;
+
+
+    text-overflow: ellipsis;
+}
+
+#card-footer {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.6rem;
+}
+
+#card-footer input {
+    width: 4rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.6rem;
+}

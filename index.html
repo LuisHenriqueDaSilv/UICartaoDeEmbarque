@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Cartão de Embarque</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <h1>
+            Cartão de embarque
+        </h1>
+
+        <div id="card">
+
+            <section>      
+                    <div class="info-row">
+                        <div class="info">
+                            <p>Voo</p>
+                            <input value="RS995" type="text">
+                        </div>
+                        <div class="info right-info">
+                            <p>Data</p>
+                            <input value="23/05/2023" type="text">
+                        </div>
+                </div>
+                
+                <div class="info-row">
+                    <div class="info">
+                        <input id="state" value="São paulo, Brasil" type="text">
+                        <input id="airport" value="GRU" type="text">
+                        <input id="fly-hour" value="17:00" type="text">
+                    </div>
+                    <div class="info right-info">
+                        <input id="state" value="São paulo, Brasil" type="text">
+                        <input id="airport" value="GRU" type="text">
+                        <input id="fly-hour" value="17:00" type="text">
+                    </div>
+                </div>
+            </section>
+            
+            <section id="user-infos">
+                <div class="info-row">
+                    <div class="info">
+                        <p>Passageiro</p>
+                        <input value="Luis Henrique Da Silva" type="text">
+                    </div>
+                    <div class="info right-info">
+                        <p>Assento</p>
+                        <input value="28A" type="text">
+                    </div>
+                </div>
+            </section>
+            
+            <section id="about-boarding">
+
+                <div id="boarding-infos">
+                    <div>
+
+                    <div class="info">
+                        <p>Embarque</p>
+                        <input id="board-time" value="16:15" type="text">
+                    </div>
+                    <div class="info">
+                        <p>Terminal</p>
+                        <input value="2" type="text">
+                    </div>
+                    <div class="info">
+                        <p>Portão</p>
+                        <input value="15" type="text">
+                    </div>
+                    </div>
+                        
+                    <div>        
+                        <img 
+                            id="qrcode" 
+                            alt="qrcode para www.linkedin.com/in/luishenriquedasilv"
+                            src="./assets/qrcode.png"
+                        >
+                    </div>
+                </div>
+
+                <p id="card-footer"><strong>Atenção:</strong> portão fecha <input type="text" value="16:45"> </p>
+            </section>
+
+
+        </div>
+
+        <p id="footer">
+            Qualquer problema procure o balcão de <br> atendimento da sua companhia aérea
+        </p>
+    </div>
+</body>
+
+</html>
